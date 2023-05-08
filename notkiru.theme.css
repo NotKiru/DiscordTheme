@@ -13,7 +13,7 @@
 
 :root {
   --main-color: #000001;
-  --hover-color: #1e63b3;
+  --hover-color: #00ACFF;
   --success-color: #43b581;
   --danger-color: #982929;
   --url-color: var(--main-color);
@@ -86,6 +86,9 @@
 }
 
 /* Any custom CSS below here */
+.members-3WRCEx .membersGroup-2eiWxl {
+  color: var(--hover-color); 
+}
 .container-q97qHp .overflow-1wOqNV, .headerText-10ez_d, .container-q97qHp span {
   font-size: 15px;
   text-shadow: 0px 0px 3px #00ACFF;
