@@ -12,7 +12,7 @@
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
-  --main-color: #00000;
+  --main-color: #000001;
   --hover-color: #1e63b3;
   --success-color: #43b581;
   --danger-color: #982929;
@@ -55,9 +55,9 @@
   --home-icon: url('https://clearvision.github.io/icons/discord.svg');
   --home-position: center;
   --home-size: 40px;
-  --channel-unread: #008EFF;
-  --channel-color: rgb(235,228,255,1);
-  --muted-color: rgb(103,103,103,1);
+  --channel-unread: #000001;
+  --channel-color: rgb(255,255,255);
+  --muted-color: rgb(103,103,103);
   --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
@@ -87,6 +87,6 @@
 
 /* Any custom CSS below here */
 .container-q97qHp .overflow-1wOqNV {
-  text-shadow: 0px 0px 5px white;
+  text-shadow: 0px 0px 3px white;
 }
 
