@@ -86,9 +86,7 @@
 }
 
 /* Any custom CSS below here */
-.container-q97qHp .overflow-1wOqNV {
+.container-q97qHp .overflow-1wOqNV, .headerText-10ez_d, .container-q97qHp span {
+  font-size: large;
   text-shadow: 0px 0px 3px white;
-}
-.headerText-10ez_d {
-   text-shadow: 0px 0px 3px white;
 }
