@@ -9,67 +9,63 @@
  * @BDEditor Clear Vision
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100;300;400;500;700&display=swap');
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
 :root {
-  --main-color: rgb(58, 119, 189);
-  --hover-color: rgb(123, 143, 165);
-  --success-color: #3EA375;
+  --main-color: #0798FF;
+  --hover-color: #1e63b3;
+  --success-color: #43b581;
   --danger-color: #982929;
-  --url-color: #CB8989;
-  --background-image: url('https://i.imgur.com/HfA1Mdx.png');
+  --url-color: var(--main-color);
+  --background-image: url('https://i.imgur.com/104FjwN.jpg');
   --background-shading: 100%;
-  --background-position: center 10%;
+  --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 50%;
+  --background-brightness: 100%;
   --background-contrast: 100%;
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
-  --background-blur: 10px;
-  --background-overlay: rgb(0,0,0,0.5);
-  --user-popout-image: url('https://i.imgur.com/ggRcyj7.png');
-  --user-popout-position: Bottom center;
-  --user-popout-size: contain;
+  --background-blur: 4px;
+  --background-overlay: rgb(0,0,0,0.55);
+  --user-popout-image: transparent;
+  --user-popout-position: center;
+  --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
   --user-popout-brightness: 100%;
   --user-popout-contrast: 100%;
   --user-popout-saturation: 100%;
   --user-popout-grayscale: 0%;
-  --user-popout-invert: 100%;
-  --user-popout-blur: 2px;
-  --user-modal-image: url('https://i.imgur.com/2xusfza.png');
-  --user-modal-position: Bottom center;
-  --user-modal-size: contain;
-  --user-modal-repeat: repeat;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 3px;
+  --user-modal-image: transparent;
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
   --user-modal-attachment: fixed;
   --user-modal-brightness: 100%;
   --user-modal-contrast: 100%;
-  --user-modal-saturation: 169%;
+  --user-modal-saturation: 100%;
   --user-modal-grayscale: 0%;
-  --user-modal-invert: 100%;
-  --user-modal-blur: 2px;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 3px;
   --home-icon: url('https://clearvision.github.io/icons/discord.svg');
   --home-position: center;
   --home-size: 40px;
-  --channel-unread: #FF0000;
-  --channel-color: rgb(205,188,188,1);
-  --muted-color: rgb(117,87,85,1);
+  --channel-unread: #008EFF;
+  --channel-color: rgb(235,228,255,1);
+  --muted-color: rgb(103,103,103,1);
   --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
   --streaming-color: #593695;
   --offline-color: #808080;
-  --main-font: Rubik;
-  --code-font: JetBrains Mono;
-  --channels-width: 220px;
+  --main-font: gg sans;
+  --code-font: Consolas;
+  --channels-width: 240px;
   --members-width: 240px;
   --backdrop-overlay: rgba(0,0,0,0.8);
   --backdrop-image: var(--background-image);
@@ -87,17 +83,8 @@
   --bd-blue: var(--main-color);
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
-  --rs-small-spacing: 0px;
-  --rs-medium-spacing: 0px;
-  --rs-large-spacing: 4px;
-  --rs-small-width: 2px;
-  --rs-medium-width: 2px;
-  --rs-large-width: 2px;
-  --rs-avatar-shape: 25%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-phone-visible: block;
 }
+
+/* Any custom CSS below here */
+
+
