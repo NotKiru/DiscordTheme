@@ -17,7 +17,7 @@
   --success-color: #43b581;
   --danger-color: #982929;
   --url-color: var(--main-color);
-  --background-image: url('https://i.imgur.com/104FjwN.jpg');
+  --background-image: transparent;/*url('https://i.imgur.com/104FjwN.jpg');*/
   --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
