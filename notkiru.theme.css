@@ -55,7 +55,7 @@
   --home-icon: url('https://clearvision.github.io/icons/discord.svg');
   --home-position: center;
   --home-size: 40px;
-  --channel-unread: #000001;
+  --channel-unread: #01353d;
   --channel-color: rgb(255,255,255);
   --muted-color: rgb(103,103,103);
   --online-color: #43b581;
@@ -86,10 +86,3 @@
 }
 
 /* Any custom CSS below here */
-.members-3WRCEx .membersGroup-2eiWxl {
-  color: var(--hover-color); 
-}
-.container-q97qHp .overflow-1wOqNV, .headerText-10ez_d, .container-q97qHp span {
-  font-size: 13px;
-  text-shadow: 0px 0px 3px #00ACFF;
-}
